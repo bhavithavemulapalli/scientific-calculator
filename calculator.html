@@ -3,7 +3,7 @@
 <div id=”big_wrapper”>
 <h1 id=”heading”>SCIENTIFIC CALCULATOR</h1>
 <div id=”form_wrapper”>
-<form id=”formone” name=”calc” bgcolor="red">
+<form id=”formone” name=”calc”>
 <input id=”display” type=”text” name=”display” value=” ” disabled contenteditable=”false” >
 <br>
 <input class=”button number” type=”button” value=1 onClick=”calc.display.value+=1”>
@@ -29,30 +29,29 @@
 <input class=”button” type=”button” value=n! onClick=”fact_function()”>
 <input class=”button” type=”button” value=sin onClick=”sin_function()”>
 <br>
-<input class=”button opps” type=”button” value=. onClick=”calc.display.value+=’.’”>
-<input class=”button number” type=”button” value=0 onClick=”calc.display.value+=0”>
-<input class=”button opps” type=”button” value=, onClick=”calc.display.value+=’,’”>
-<input class=”button opps” type=”button” value=+ onClick=”calc.display.value+=’+’”>
-<input class=”button opps” type=”button” value=/ onClick=”calc.display.value+=’/’”>
-<input class=”button” type=”button” value=tan onClick=”tan_function()”>
+<input class=”button opps” type=”button” value=”.” onClick=”calc.display.value+=’.’”>
+<input class=”button number” type=”button” value=”0” onClick=”calc.display.value+=0”>
+<input class=”button opps” type=”button” value=”,” onClick=”calc.display.value+=’,’”>
+<input class=”button opps” type=”button” value=”+” onClick=”calc.display.value+=’+’”>
+<input class=”button opps” type=”button” value=”/” onClick=”calc.display.value+=’/’”>
+<input class=”button” type=”button” value=”tan” onClick=”tan_function()”>
 <br>
-<input class=”button” type=”button” value=E onClick=”calc.display.value+=2.718”>
-<input class=”button” type=”button” value=pi onClick=”calc.display.value+=3.141”>
-<input class=”button” type=”button” value=x^y onClick=”power_function()”>
-<input class=”button” type=”button” value=( onClick=”openpara(this.value)”>
-<input class=”button” type=”button” value=) onClick=”closepara(this.value)”>
-<input class=”button” type=”button” value=log onClick=”log_function()”>
+<input class=”button” type=”button” value=”E” onClick=”calc.display.value+=2.718”>
+<input class=”button” type=”button” value=”pi” onClick=”calc.display.value+=3.141”>
+<input class=”button” type=”button” value=”x^y” onClick=”power_function()”>
+<input class=”button” type=”button” value=”(” onClick=”openpara(this.value)”>
+<input class=”button” type=”button” value=”)” onClick=”closepara(this.value)”>
+<input class=”button” type=”button” value=”log” onClick=”log_function()”>
 <br>
-<input class=”button” type=”button” value=sqrt onClick=”sqrt_function()”>
-<input class=”button” type=”button” value=LN2 onClick=”calc.display.value+=0.693”>
-<input class=”button” type=”button” value=LN10 onClick=”calc.display.value+=2.302”>
-<input class=”button” type=”button” value=log2E onClick=”calc.display.value+=1.442”>
-<input class=”button” type=”button” value=log10E onClick=”calc.display.value+=0.434”>
-<input class=”button” type=”button” value=EXP onClick=”exp_function”>
+<input class=”button” type=”button” value=”sqrt” onClick=”sqrt_function()”>
+<input class=”button” type=”button” value=”LN2” onClick=”calc.display.value+=0.693”>
+<input class=”button” type=”button” value=”LN10” onClick=”calc.display.value+=2.302”>
+<input class=”button” type=”button” value=”log2E” onClick=”calc.display.value+=1.442”>
+<input class=”button” type=”button” value=”log10E” onClick=”calc.display.value+=0.434”>
+<input class=”button” type=”button” value=”EXP” onClick=”exp_function”>
 
 </form>
 </div>
 </div>
 </body>
-<!---- comment ---->
 </html>
